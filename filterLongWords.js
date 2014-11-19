@@ -3,14 +3,14 @@
 
 var names = ["claire","myles","ann","zoie"];
 var maxLength = 4;
-var newArray = [];
+var shortNames = [];
 
 // loop 6 times, and for each loop you will check to see if the word is
 // <= to the maxLength
 
 for (var i=0; i < names.length; i++) {
 	if (names[i].length < maxLength) {
-		newArray.push(names[i]);
+		shortNames.push(names[i]);
 	}
 }
 

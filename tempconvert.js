@@ -2,9 +2,10 @@
 
 // Convert a temperature from F to C.
 
-var tempF = 32;
+var tempF = 115;
 
 var tempC = (tempF -32)/1.8;
+tempC = tempC.toFixed(1);
 
 // convert F to C
-console.log(tempF + " °F and " + tempC + " °C")
+console.log(tempF + " °F is " + tempC + " °C")

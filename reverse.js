@@ -2,11 +2,12 @@
 // and console log the reversed version of it. Use a for loop
 
 var inputString = "building";
-var finalString = " ";
+var finalString = "";
 
-for (var i = inputString.length-1;  i>=0; i--) {
-	finalString = finalString + inputString.charAt(i);
+for (var i = 0; i < inputString.length; i++) {
+	finalString = inputString.charAt(i) + finalString;
 }
 
-console.log(finalString)
+console.log(finalString);
+console.log(inputString);
 
